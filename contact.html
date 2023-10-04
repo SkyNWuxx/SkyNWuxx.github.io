@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/bootstrap-5.3.0-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styleuts.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="styleuts2.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+      body {
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(29, 29, 29, 0.7)
+          ),
+          url(gambar/bg.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <nav style="background-color: #2d2d2d">
+      <a href="STS.html"><img src="gambar/NesWhite.png" alt="" /></a>
+      <div class="nav-links" id="navLinks">
+        <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="STS.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="product.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="bi bi-list" onclick="showMenu()"></i>
+    </nav>
+    <section style="padding: 100px 200px">
+      <div id="contact" style="color: #000000">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Us</h1>
+            <p style="font-size: 25px">Nescafé@gmail.com</p>
+            <p>+62219037095</p>
+            <div class="social-icons p-3">
+              <a href="https://www.instagram.com/wellson.c/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.youtube.com/channel/UCcvFVE8vhOskM0ZeTV3xJSA"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="https://github.com/SkyNWuxx"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="copyright">
+      <p>&#169; Copyright by SkyWuxx</p>
+    </div>
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="uts.js"></script>
+  </body>
+</html>
